@@ -1,4 +1,4 @@
-/* Estilos del body */
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,10 +11,9 @@ body {
     background-color: #040000;
 }
 
-/* Estilos del header */
-/* Estilos para el menú de navegación en el encabezado */
+
 header nav {
-    margin-left: auto; /* Mueve el menú al lado derecho del encabezado */
+    margin-left: auto; 
 }
 
 header nav ul {
@@ -23,7 +22,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 30px; /* Espacio entre cada elemento del menú */
+    gap: 30px;
 }
 
 header nav ul li {
@@ -41,8 +40,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #40c544; /* Color de fondo al pasar el cursor */
-    color: white; /* Cambia el color del texto al pasar el cursor */
+    background-color: #40c544;
+    color: white; 
 }
 
 header img {
@@ -57,7 +56,7 @@ h1 {
     color: aqua;
 }
 
-/* Contenedor principal */
+
 main {
     width: 100%;
     max-width: 1200px;
@@ -71,7 +70,7 @@ main {
    
 }
 
-/* Estilos del formulario y la lista de contactos */
+
 .formulario {
     background-color: #ffffff;
     padding: 30px;
@@ -92,7 +91,7 @@ main {
     box-sizing: border-box;
 }
 
-/* Otros estilos del formulario y lista de contactos */
+
 .formulario label,
 .formulario input,
 .formulario textarea {
@@ -147,7 +146,7 @@ li img {
 
 
 
-/* Estilos para el modal */
+
 .modal {
     display: none;
     position: fixed;
@@ -159,11 +158,11 @@ li img {
     justify-content: center;
     align-items: center;
     animation: fadeIn 0.3s ease-in-out;
-    overflow: auto; /* Permite hacer scroll si el contenido es alto */
+    overflow: auto; 
     padding: 20px;
 }
 
-/* Estilos para el contenido del modal */
+/*contenido del modal */
 .modal-content {
     background-color: #ffffff;
     padding: 25px 30px;
@@ -175,10 +174,10 @@ li img {
     animation: slideDown 0.4s ease-out;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espacio entre los elementos */
+    gap: 15px; 
 }
 
-/* Icono de cierre */
+/* icono de cierre */
 .close {
     position: absolute;
     top: 15px;
@@ -214,7 +213,7 @@ li img {
     }
 }
 
-/* Estilos para los campos del formulario en el modal */
+/* campos del formulario en el modal */
 .modal-content label {
     font-weight: bold;
     color: #333;
@@ -236,7 +235,7 @@ li img {
     resize: vertical;
 }
 
-/* Estilos para el botón de guardar en el modal */
+/*  botón de guardar en el modal */
 .modal-content button {
     background-color: #4CAF50;
     color: white;
@@ -253,7 +252,7 @@ li img {
     background-color: #45a049;
 }
 
-/* Ajustes para pantallas pequeñas */
+/* ajusta las pantallas pequeñas */
 @media (max-width: 480px) {
     .modal-content {
         padding: 20px;
