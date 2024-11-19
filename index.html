@@ -10,6 +10,7 @@
 
 <body>
 
+
     <header>
         <img src="unad.png" alt="Logo de la Universidad">
         <h1>Agenda de Contactos UNAD</h1>
@@ -21,47 +22,52 @@
         </nav>
     </header>
   
-<main>
-    <div class="formulario" id="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="Nombre completo" required>
+    <main>
+        <div class="formulario" id="formulario">
+            <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
 
-        <label for="correo">Correo Electrónico:</label>
-        <input type="email" id="correo" placeholder="Correo electrónico">
+            <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" placeholder="Correo electrónico">
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" placeholder="Número de teléfono">
+            <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="Número de teléfono">
 
-        <label for="red-social">Red Social:</label>
-        <select id="usuario-red">
-            <option value="Facebook">Facebook</option>
-            <option value="Twitter">Twitter</option>
-            <option value="Instagram">Instagram</option>
-            <option value="LinkedIn">LinkedIn</option>
-            <option value="TikTok">TikTok</option>
-            <option value="Otra">Otra</option>
-        </select>
+            <label for="red-social">Red Social:</label>
+                <select id="usuario-red">
+                    <option value="Facebook">Facebook</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="TikTok">TikTok</option>
+                    <option value="Otra">Otra</option>
+                </select>
 
-        <label for="usuario-red">Nombre de Usuario en Red Social:</label>
-        <input type="text" id="red-social" placeholder="Usuario de red social">
+            <label for="usuario-red">Nombre de Usuario en Red Social:</label>
+                <input type="text" id="red-social" placeholder="Usuario de red social">
 
-        <label for="comentario">Comentario:</label>
-        <textarea id="comentario" rows="3" placeholder="Comentario sobre el contacto"></textarea>
+             <label for="comentario">Comentario:</label>
+                <textarea id="comentario" rows="3" placeholder="Comentario sobre el contacto"></textarea>
 
-        <label for="imagen">Imagen del Contacto:</label>
-        <input type="file" id="imagen" accept="image/*">
+            <label for="imagen">Imagen del Contacto:</label>
+                <input type="file" id="imagen" accept="image/*">
 
-        <button onclick="agregarContacto()">Agregar Contacto</button>
-        <button onclick="limpiarCampos()">Limpiar Campos</button>
+                        <button onclick="agregarContacto()">Agregar Contacto</button>
+                        <button onclick="limpiarCampos()">Limpiar Campos</button>
         
-    </div>
-</main>
+        </div>
+
+   
+
+    </main>
 
     <section class="formulario" id="lista-contactos" style="display: none;">
         <h2>Contactos Agregados</h2>
         <button onclick="mostrarContactos()">Mostrar Contactos</button>
         <ul id="contactos-lista" style="display: none;"></ul>
     </section>
+
+    
 
 
   
@@ -98,8 +104,17 @@
         </div>
     </div>
 
-   
+    <footer>
+        <p>Agenda de Contactos UNAD &copy; 2024</p>
+        <p>Desarrollado por <a href="https://www.linkedin.com/in/juan-mart%C3%ADnez-cortes/">Rafael Tavares</a></p>
+        <p>Diseñado y desarrollado con HTML, CSS y JavaScript</p>
+        <p>Contenido de la agenda se almacena en el localStorage del navegador</p>
+        <p>Todos los derechos reservados</p>
+        <p>Versión 1.0</p>
+    </footer>
+
 
     <script src="script_Agenda-unad.js"></script>
+    
 </body>
 </html>
