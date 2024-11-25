@@ -80,6 +80,9 @@ function agregarContacto() {
     } else {
         alert("Por favor, complete todos los campos obligatorios.");
     }
+
+    const year = new Date().getFullYear();
+    document.querySelector('footer p').textContent = `Agenda de Contactos UNAD © ${year}`;
         
 }
 
